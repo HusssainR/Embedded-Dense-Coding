@@ -43,5 +43,5 @@ This design explores how the **limit of entanglement (Z gates)** and **the struc
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
