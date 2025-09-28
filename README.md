@@ -3,7 +3,7 @@ Implementation of Embedded Dense Coding using Qiskit and IBM Quantum Computers.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **Dense Coding** is a quantum communication protocol that allows the transmission of **two classical bits using only one qubit**, made possible through the prior sharing of entangled states. This project extends traditional dense coding by embedding it into a logical multi-qubit framework, allowing a **higher density of classical information** to be transmitted per logical qudit.
 
@@ -15,16 +15,16 @@ This embedded dense coding scheme aims to:
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
-- 🧩 Implementation of the dense coding protocol using unitary operations, measurements, and classical decoding
-- 🔌 Use of embedded systems by constructing **logical qudits from multiple qubits** (due to Qiskit's lack of native high-dimensional qudit support)
-- 🧪 Simulation and testing using Qiskit, with optional extension to QuTiP
-- 🛰️ Classical-to-quantum signal encoding that supports either real-time or simulated interaction
+-  Implementation of the dense coding protocol using unitary operations, measurements, and classical decoding
+-  Use of embedded systems by constructing **logical qudits from multiple qubits** (due to Qiskit's lack of native high-dimensional qudit support)
+-  Simulation and testing using Qiskit, with optional extension to QuTiP
+-  Classical-to-quantum signal encoding that supports either real-time or simulated interaction
 
 ---
 
-## 📝 Write-Up
+## Write-Up
 
 In our approach to **embedded dense coding**, we simulate higher-dimensional qudits by constructing them from **logical combinations of multiple qubits**. Since Qiskit does not currently support native qudits, we emulate a `d`-dimensional system using `log₂(d)` physical qubits.
 
@@ -34,7 +34,7 @@ This design explores how the **limit of entanglement (Z gates)** and **the struc
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Qiskit** – Quantum circuit simulation and IBM hardware access
 - **IBM Quantum Experience** – For running experiments on real quantum hardware
@@ -43,5 +43,5 @@ This design explores how the **limit of entanglement (Z gates)** and **the struc
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
