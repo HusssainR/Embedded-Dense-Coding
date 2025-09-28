@@ -43,5 +43,7 @@ This design explores how the **limit of entanglement (Z gates)** and **the struc
 
 ---
 
-## Project Structure
+## Poster
 
+![Poster Preview](files/EDC_Poster.jpeg)  
+[View Full Poster (PDF)](files/EDC_Poster.pdf)
